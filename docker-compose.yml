@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    httpd:
+        build: ./web/httpd
+        ports:
+            - 8000:80
+    tomcat:
+        build: ./web/tomcat
+        expose:
+            - 8009

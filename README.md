@@ -57,6 +57,32 @@ mvn deploy
 $ mvn clean
 ```
 
+## container
+
+* compose-up
+
+```shell
+$ docker-compose up -d --build
+```
+
+* process
+
+```shell
+$ docker-compose ps
+```
+
+* tail logs
+
+```shell
+$ docker-compose logs -f
+$ docker-compose logs -f tomcat
+$ docker-compose logs -f tomcat
+
+# こういうデバッグ の方法もあるらしい
+$ docker exec -it httpd-container tail -f /etc/httpd/logs/access_log
+$ docker exec -it tomcat-container tail -f /usr/local/tomcat/logs/localhost_access_log.`date +%Y-%m-%d`.log
+```
+
 
 ## Links
 
