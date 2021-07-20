@@ -135,10 +135,12 @@ http://localhost:8000/app/HelloServlet
 * [【超初心者向け】Maven超入門](https://qiita.com/tarosa0001/items/e5667cfa857529900216)
   * windows だけど、Eclipse とか `pom.xml` 周りの説明は詳しい..気がする..
 
+
 ### Docker, application 周り
 * [Maven で war ファイルを作成する](https://a4dosanddos.hatenablog.com/entry/2015/03/05/002822)
   * war ファイル作成や `HelloServlet.java, WEB-INF/web.xml` などを作成する際に参照
 * [DockerでApacheとTomcat環境構築。ついでにMaven&Java連携](https://qiita.com/shintaro123/items/a8a3d222d3dd46aba876)
   * 主に Docker 周りを参照
 * [Dockerで別コンテナでApache+Tomcat連携する](https://confrage.jp/docker%E3%81%A7%E5%88%A5%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%81%A7apachetomcat%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B/)
+* [Java + Apache Tomcat 10 + Jakarta Servlet 5.0 + JSP で Hello World](https://qiita.com/niwasawa/items/6408947ec1b39ff1d04f#war-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92-apache-tomcat-10-%E3%81%AB%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%99%E3%82%8B)
   * tomcat のルーティングのアクセスがどこかを参照するときに参照
